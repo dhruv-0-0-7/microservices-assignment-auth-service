@@ -8,7 +8,7 @@
   },
   "scripts": {
     "start": "node src/index.js",
-    "start:dev": "env-cmd -f .env nodemon --watch src -e js src/index.js"
+    "start:dev": "env-cmd -f .env nodemon --watch src --watch ../config --watch ../gateway -e js src/index.js"
   },
   "author": "",
   "license": "ISC",
