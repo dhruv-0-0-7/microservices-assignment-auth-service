@@ -7,7 +7,7 @@ const authController = Router();
 emailQueueListener();
 
 // Example Route
-authController.get('/example', (req, res) => {
+authController.get('/status', (req, res) => {
     res.send({ message: 'Auth Service Success' });
 });
 
